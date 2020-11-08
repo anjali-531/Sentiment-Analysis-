@@ -8,7 +8,8 @@ Pytorch
 Transformers
 
 ## Data
-Dataset was taken from kaggle (link : https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set).The dataset contains reviews and scores for products sold on amazon.com in the cell phones and accessories category,and is part of the dataset collected by McAuley and Leskovec.There exist 500 positive and 500 negative sentences.
+Dataset was taken from kaggle (link : https://www.kaggle.com/marklvl/sentiment-labelled-sentences-data-set).
+The dataset contains reviews and scores for products sold on amazon.com in the cell phones and accessories category,and is part of the dataset collected by McAuley and Leskovec.There exist 500 positive and 500 negative sentences.
 The reviews are preprocessed by specifying the pipeline in pytorch Field and Label.
 ## Model
 The model is a Neural Network with the following layers:
